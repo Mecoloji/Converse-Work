@@ -1,0 +1,212 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+/* RESET */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Main Style */
+
+main {
+  border: #24272b solid 5px;
+  width: 825px;
+  height: auto;
+  margin: 95px auto;
+  background-color: #E0E0E0;
+  border-radius: 10px;
+}
+
+/* Title Style */
+
+.title {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin: 15px;
+  text-align: center;
+}
+
+
+/* Price  Style */
+
+.price {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
+}
+
+/* Free Shipping Style */
+
+.free-shipping {
+  text-transform: uppercase;
+  color: #4a525a;
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+}
+
+
+/* information Style */
+
+.more_info{
+  font-weight: bold;
+  font-size: 16px;
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.more_info:hover {
+  text-decoration: none;
+  color: #169873;
+}
+
+.more_info:active {
+  color: #af4319;
+}
+
+
+/* Product Details Style */
+
+.product-details {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 22px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.ul-list {
+  list-style-type: square;
+  margin-left: 20px;
+  margin-bottom: 25px;
+}
+
+li {
+  font-family: Raleway, sans-serif;
+  padding: 5px;
+  margin-bottom: 8px;
+  font-weight:bold;
+  letter-spacing: 0.3px;
+}
+
+
+/* Buton Style */
+
+.button[type="button"] {
+  text-decoration: none;
+  border: none;
+  font-size: 25px;
+  padding: 15px;
+  background-color: #07070a;
+  color: #f6f1d1;
+  width: 825px;
+  margin:auto;
+  border: #07070a solid 3px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #e0e0e0;
+  color: #07070a;
+}
+
+
+/* p Style */
+
+p {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+}
+
+
+/* Photo Style */
+
+.photo{
+  border: 5px outset #818488;
+  border-radius: 7px;
+}
+
+/* Sale Style */
+
+.sale{
+  background-color: #e60000;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  padding: 7px 16px;
+  display: inline-block;
+  position: relative;
+  bottom: 21.6em;
+  right: 22.2em;
+}
+
+.color{
+  background-color: #0A0A0A;
+  width: 24px;
+  height: 22px;
+  display: inline-block;
+  margin-right: 13px;
+}
+
+.color-blue{
+  background-color: #00B4D8;
+}
+.color-red{
+  background-color: #F50000;
+}
+.color-yellow{
+  background-color: #EEEF20;
+}
+.color-green{
+  background-color: #74C69D;
+}
+.color-brown{
+  background-color: #9C6644;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .photo:hover{
+  -ms-transform: scale(2.5);
+  -webkit-transform: scale(2.5); 
+  transform: scale(1.6);
+} */
